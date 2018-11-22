@@ -1,4 +1,9 @@
 {
+  "name": "webrtc-server-demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "peer": "^0.2.10"
