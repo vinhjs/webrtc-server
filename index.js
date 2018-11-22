@@ -7,7 +7,7 @@ var options = {
 app.get('/', function(req, res, next) { res.send('Hello world!'); });
 
 
-var server = require('https').createServer(app);
+var server = require('http').createServer(app);
 var peerserver = ExpressPeerServer(server, options);
 
 app.use('/peerjs', peerserver);
